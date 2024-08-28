@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CO CAPTURE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #a6d7e8;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(to bottom, #4e7b8e, #a6d7e8);
+        padding: 20px;
+      }
+
+      main {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .main-content {
+        max-width: 800px;
+        text-align: left;
+      }
+
+      .frame {
+        margin-top: 60px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .logo-texts {
+        position: relative;
+      }
+
+      .logo-texts img {
+        height: 50px;
+        width: auto;
+        margin: 15px 10px;
+        position: absolute;
+      }
+
+      @keyframes moveCaptureRight {
+        0% {
+          transform: translateX(0);
+          z-index: 2;
+        }
+        45% {
+          transform: translateX(0);
+          z-index: 2;
+        }
+        50% {
+          transform: translateX(120px);
+          z-index: 2;
+        }
+        95% {
+          transform: translateX(120px);
+          z-index: 1;
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes moveCaptureRight2 {
+        0% {
+          transform: translateX(0);
+          z-index: 2;
+        }
+        45% {
+          transform: translateX(0);
+          height: 50px;
+          z-index: 2;
+          top: 0;
+        }
+        47.5% {
+          height: 75px;
+          z-index: 2;
+          top: -12.5px;
+        }
+        50% {
+          transform: translateX(120px);
+          height: 50px;
+          z-index: 2;
+          top: 0;
+        }
+        95% {
+          transform: translateX(120px);
+          height: 50px;
+          z-index: 1;
+          top: 0;
+        }
+        97.5% {
+          height: 25px;
+          top: 12.5px;
+        }
+        100% {
+          transform: translateX(0);
+          height: 50px;
+          top: 0;
+        }
+      }
+
+      @keyframes moveCoLeft {
+        0% {
+          transform: translateX(0);
+          height: 50px;
+        }
+        45% {
+          transform: translateX(0);
+          height: 50px;
+          top: 0;
+        }
+        47.5% {
+          height: 25px;
+          top: 12.5px;
+        }
+        50% {
+          transform: translateX(-340px);
+          height: 50px;
+          top: 0;
+        }
+        95% {
+          transform: translateX(-340px);
+          height: 50px;
+          z-index: 2;
+          top: 0;
+        }
+        97.5% {
+          height: 75px;
+          top: -12.5px;
+        }
+        100% {
+          transform: translateX(0);
+          height: 50px;
+          top: 0;
+          z-index: 1;
+        }
+      }
+
+      #capture {
+        left: -228px;
+        animation: moveCaptureRight 30s infinite ease-in-out;
+      }
+
+      #co {
+        left: 112px;
+        animation: moveCoLeft 30s infinite ease-in-out;
+      }
+
+      #co {
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Add your header content here -->
+      <img src="image/logo.png" class="logo" alt="Logo" />
+      <div class="logo-texts">
+        <img src="image/co.png" id="co" alt="CO" />
+        <img src="image/capture.png" id="capture" alt="CAPTURE" />
+      </div>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <div class="frame">
+          <div class="title">Hvad er op og ned i carbon capture?</div>
+          <p>
+            <strong>Hvad er Carbon Capture?</strong><br />
+            Carbon Capture, også kendt som kulstoffangst på dansk, er en
+            teknologi, der sigter mod at reducere mængden af CO2, der frigives
+            til atmosfæren. Denne teknologi fanger CO2 fra industrielle
+            processer eller energiproduktion, før det når atmosfæren, hvilket
+            hjælper med at begrænse drivhusgasudledninger og bekæmpe
+            klimaforandringer.
+          </p>
+          <p>
+            <strong>Fordele ved Carbon Capture:</strong>
+          </p>
+          <ul>
+            <li>
+              <strong>Reduktion af CO₂-udledning:</strong> Carbon capture kan
+              markant reducere mængden af CO₂, der udledes, hvilket bidrager til
+              at bekæmpe global opvarmning.
+            </li>
+            <li>
+              <strong>Mulighed for negative emissioner:</strong> Når CO₂ fanges
+              direkte fra atmosfæren (Direct Air Capture), kan det endda føre
+              til negative emissioner, hvor mere CO₂ fjernes, end der udledes.
+            </li>
+            <li>
+              <strong>Forlængelse af fossil energi:</strong> Teknologien kan
+              muliggøre en gradvis overgang væk fra fossile brændstoffer ved at
+              mindske deres miljøpåvirkning.
+            </li>
+          </ul>
+          <p>
+            <strong>Ulemper ved Carbon Capture:</strong>
+          </p>
+          <ul>
+            <li>
+              <strong>Høj omkostning:</strong> Teknologien er stadig dyr at
+              implementere og drive, hvilket kan være en barriere for
+              udbredelsen.
+            </li>
+            <li>
+              <strong>Energikrav:</strong> Processen kræver betydelig energi,
+              hvilket kan mindske den samlede effektivitet af
+              energiproduktionen.
+            </li>
+            <li>
+              <strong>Potentielle lækager:</strong> Der er risiko for, at lagret
+              CO₂ kan lække tilbage til atmosfæren over tid, hvis ikke det
+              håndteres korrekt.
+            </li>
+          </ul>
+          <p>
+            <strong>Lagring og Upscaling af CO2:</strong>
+          </p>
+          <ul>
+            <li>
+              <strong>Geologisk lagring:</strong> CO2 kan lagres dybt under
+              jordoverfladen i geologiske formationer som gamle oliereservoirer
+              eller dybe saltvandsakviferer. Dette er en af de mest udbredte
+              metoder til langsigtet lagring.
+            </li>
+            <li>
+              <strong>Mineralisering:</strong> CO2 kan også reagere med visse
+              mineraler og blive til faststof, hvilket gør det muligt at lagre
+              det permanent.
+            </li>
+            <li>
+              <strong>Upscaling:</strong> For at opskalere Carbon
+              Capture-teknologier skal der udvikles mere effektive og mindre
+              omkostningstunge metoder. Dette kræver investering i forskning og
+              udvikling samt støtte fra regeringer og private virksomheder.
+            </li>
+          </ul>
+        </div>
+        <div class="frame">
+          <div class="title">Hvad er forskellen på CO₂ og CO?</div>
+          <p><strong>CO₂ (Kuldioxid):</strong></p>
+          <ul>
+            <li>
+              <strong>Sammensætning:</strong> Kuldioxid består af ét kulstofatom
+              (C) og to iltatomer (O₂).
+            </li>
+            <li>
+              <strong>Fremkomst:</strong> CO₂ er en naturlig gas, der produceres
+              ved forbrænding af fossile brændstoffer, respiration fra dyr og
+              mennesker, samt nedbrydning af organisk materiale. Det findes også
+              naturligt i atmosfæren i små koncentrationer.
+            </li>
+            <li>
+              <strong>Betydning:</strong> Kuldioxid er en drivhusgas, hvilket
+              betyder, at det bidrager til den globale opvarmning ved at fange
+              varme i atmosfæren. Høje niveauer af CO₂ i atmosfæren er en af de
+              primære årsager til klimaforandringer.
+            </li>
+          </ul>
+          <p><strong>CO (Kulmonoxid):</strong></p>
+          <ul>
+            <li>
+              <strong>Sammensætning:</strong> Kulmonoxid består af ét
+              kulstofatom (C) og ét iltatom (O).
+            </li>
+            <li>
+              <strong>Fremkomst:</strong> CO dannes primært ved ufuldstændig
+              forbrænding af kulstofholdige materialer som træ, kul, gas eller
+              olie. Dette sker ofte, når der ikke er nok ilt til stede til at
+              danne kuldioxid (CO₂).
+            </li>
+            <li>
+              <strong>Betydning:</strong> Kulmonoxid er en farlig
+              luftforurenende gas, der kan have alvorlige sundhedseffekter. Det
+              er farligt, fordi det er lugtfrit, farveløst og svært at opdage
+              uden specielle detektorer.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Add your footer content here -->
+      <p>2024 &copy; I oplysningens tjeneste - Lars Vistrup Skov</p>
+    </footer>
+  </body>
+</html>
