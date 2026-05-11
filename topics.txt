@@ -8,6 +8,114 @@
 # et nyt <div class="frame"> HTML-afsnit til den relevante side, baseret
 # på emnet. Tilføj det som en ny sektion i den relevante .html-fil og push.
 
+
+# ===========================================================================
+# PRIORITET 1 – VESTFORBRÆNDINGEN (2023–2025, op til 2 år tilbage)
+# ===========================================================================
+
+[nyheder] Vestforbrændingen offentliggør CO2-køreplan: Fangst af 500.000 ton/år inden 2030
+# Baggrund: Vestforbrændingen lancerede officielt sin BioCCS-strategi. Kernefakta:
+# anlæggets nuværende udledning ~750.000 ton/år, biologisk andel ~50%, MOU med
+# teknologileverandør om amine-baseret post-combustion fangst. Verificér dato og partner.
+
+[nyheder] Vestforbrændingen modtager støtte fra Energistyrelsen til CCS-forundersøgelse
+# Baggrund: Energistyrelsen uddelte i 2023-2024 støtte til feasibility-studier på
+# større danske udledere inkl. affaldsanlæg. Verificér beløb og tilsagnsdato.
+
+[vestforbraendingen] Vestforbrændingens pilotanlæg: Hvad testes der, og hvornår er det klar?
+# Baggrund: Planer om et mindre fangstanlæg (capture pilot) som forstadie til
+# fuldskala. Status, kapacitet og tidslinje til verificering.
+
+[vestforbraendingen] Fra affald til negativ emission: Sådan fungerer Vestforbrændingens BioCCS-plan i detaljer
+# Dybdegående teknisk forklaring: hvilken fangstteknologi vælges (MEA/andre aminer,
+# kaliumcarbonat?), energiintegration med eksisterende fjernvarme, CO2-kvalitetskrav
+# til lagring.
+
+[vestforbraendingen] 19 kommuner bag grøn omstilling: Hvad betyder CCS for ejerkommunerne?
+# Politisk vinkel: ejerkommunernes klimaforpligtelse, hvad CCS koster kommunerne
+# vs. ETS-kvoteomkostninger, og hvad det betyder for affaldstakster.
+
+[nyheder] Vestforbrændingen indgår aftale om CO2-transport via skib til Nordsøen
+# Baggrund: Aftale med shipping-partner eller Northern Lights om flydende CO2-transport.
+# Verificér konkret partner og aftaledato.
+
+# ===========================================================================
+# PRIORITET 2 – DANSK CCS-POLITIK OG REGULERING (2024–2025)
+# ===========================================================================
+
+[nyheder] Danmark og Norge underskriver bilateral CO2-lagringsaftale
+# Baggrund: Energi-, forsynings- og klimaminister Dan Jørgensen (eller efterfølger)
+# + norsk modpart underskrev aftale om CO2-transport og -lagring i Nordsøen.
+# Verificér dato (forventet 2024) og aftalens omfang (mio. ton/år).
+
+[nyheder] Energistyrelsen udsteder Danmarks første CO2-lagertilladelser til Nordsøen
+# Baggrund: Med ændring af undergrundslov (2023) fik ENS hjemmel. Første tilladelser
+# forventeligt 2024. Verificér hvilke selskaber (INEOS Energy, Wintershall Dea,
+# Nini/Siri-feltet eller Stenlille-strukturen).
+
+[nyheder] Danmarks første CCS-udbud: Hvem fik støtte, og hvad er kravene?
+# Baggrund: Energistyrelsen lancerede støtteordning for CCS (Contract for Difference
+# eller lignende). Verificér udbudsrunde, antal ansøgere, tildelte beløb.
+
+[nyheder] Affaldsforbrænding ind i EU ETS: Hvad betyder det for danske anlæg?
+# Baggrund: EU's ETS revision (Fit for 55) inkluderer affaldssektoren fra 2024 med
+# fuld inkludering 2028. Med kvotepris 60-80 EUR/ton: konkret regneeksempel for
+# Vestforbrændingen, ARC, Reno Nord m.fl.
+
+[nyheder] EU's Carbon Removal Certification Framework vedtaget – hvad tæller som BioCCS?
+# Baggrund: EU Parlamentet vedtog CRCF i marts 2024. Rammerne for hvad der tæller
+# som negativt kulstoffjernelse (CDR) – særligt relevant for BioCCS på affaldsanlæg.
+
+# ===========================================================================
+# PRIORITET 3 – NORDEUROPÆISK CCS-INFRASTRUKTUR (2024–2025)
+# ===========================================================================
+
+[nyheder] Northern Lights modtager første last CO2 fra europæisk industri
+# Baggrund: Historisk milepæl maj/juni 2024: Heidelberg Materials Brevik cementfabrik
+# leverede første kommercielle CO2 til Northern Lights-lageret i Nordsøen.
+# Verificér dato, mængde og hvad det betyder for dansk CO2-eksport.
+
+[nyheder] Northern Lights udvider kapacitet: Fra 1,5 til 5 mio. ton CO2 om året
+# Baggrund: Northern Lights fase 2-planer. Hvornår er ny kapacitet tilgængelig,
+# prissætning, og hvilke danske aktører er i kø?
+
+[forskning] GEUS kortlægger dansk Nordsø: Hvor mange milliarder ton CO2 kan vi lagre?
+# Baggrund: GEUS's CO2 Storage Atlas opdateret. Gassum-formationen og Bunter Sandstone.
+# Sammenlign med Danmarks samlede udledning og CCS-ambitioner.
+
+[nyheder] INEOS Energy får dansk CO2-lagertilladelse – hvad sker der under Nordsøen?
+# Baggrund: INEOS Energy / tidligere Dong Energy-licenser i Nordsøen. Verificér
+# om INEOS eller Wintershall Dea fik første danske lagertilladelse og i hvilket felt.
+
+# ===========================================================================
+# PRIORITET 4 – DANSK FORSKNING OG ØKONOMI (2024–2025)
+# ===========================================================================
+
+[forskning] DTU udvikler næste generations CO2-fangstmateriale: Billigere og mere effektivt
+# Baggrund: DTU Kemiteknik-forskning i aminbaserede solvents, fast adsorbenter og
+# membraner. Verificér aktuelle publicerede resultater og involverede forskere.
+
+[forskning] Hvad koster CCS egentlig? Nyt studie viser 50-150 EUR per ton CO2
+# Baggrund: Prisestimater fra IEA, Global CCS Institute og danske studier.
+# Sammenlign omkostninger på affaldsanlæg (lav pris pga. høj CO2-koncentration)
+# med direkte luftfangst (dyr) og biomassekraftvarme (mellemdyr).
+
+[forskning] Power-to-X møder CCS: Ørsted og DTU undersøger e-brændstoffer fra fanget CO2
+# Baggrund: Power-to-X-strategi bruger CO2 som feedstock til e-methanol, e-ammonia.
+# Koblingen til Ørsteds VE-el og CCS fra biomasse skabes et lukket kredsløb.
+
+[teknologi] Hvad er forskellen på pre-combustion, post-combustion og oxyfuel-fangst?
+# Teknisk artikel til teknologi.html med fordele/ulemper pr. metode og hvilke
+# anlægstyper der er bedst egnet til hvad.
+
+[teknologi] Solid sorbents: Den næste generation af CO2-fangst – ingen flydende kemikalier
+# Teknisk dybdegående om fast sorbentteknologi, adsorption/desorption-cyklus,
+# energiforbrug og kommerciel modenhed (TRL).
+
+# ===========================================================================
+# EKSISTERENDE EMNER (BEHOLDES)
+# ===========================================================================
+
 [vestforbraendingen] Hvad er de præcise CO2-fangstomkostninger per ton på Vestforbrændingen?
 [vestforbraendingen] Hvem er Vestforbrændingens teknologileverandør til CCS-pilotprojektet?
 [vestforbraendingen] Hvordan fungerer CO2-transporten fra Glostrup til Nordsøen?
