@@ -1,0 +1,22 @@
+# Emner til AI-indholdsudvikling på cocapture.dk
+#
+# Tilføj nye emner her – ét pr. linje.
+# Format: [side] Emnetitel
+# Sider: vestforbraendingen | forskning | nyheder | teknologi
+#
+# Eksempel på workflow: Brug GitHub Copilot (agent-mode) til at generere
+# et nyt <div class="frame"> HTML-afsnit til den relevante side, baseret
+# på emnet. Tilføj det som en ny sektion i den relevante .html-fil og push.
+
+[vestforbraendingen] Hvad er de præcise CO2-fangstomkostninger per ton på Vestforbrændingen?
+[vestforbraendingen] Hvem er Vestforbrændingens teknologileverandør til CCS-pilotprojektet?
+[vestforbraendingen] Hvordan fungerer CO2-transporten fra Glostrup til Nordsøen?
+[forskning] Hvad forsker DTU i inden for direkte luftfangst (DAC)?
+[forskning] Hvad er GEUS's seneste kortlægningsresultater for dansk Nordsø-lagring?
+[forskning] Hvad er Energinets rolle i CO2-transportinfrastruktur?
+[teknologi] Hvad er forskellen på pre-combustion og post-combustion capture?
+[teknologi] Hvordan fungerer solid sorbent carbon capture?
+[teknologi] Hvad koster det at drive et CCS-anlæg i dag (2024-priser)?
+[nyheder] Hvad besluttede EU's parlamentsafstemning om Carbon Removal Certification Framework?
+[nyheder] Status på det danske CCS-demonstrationsprojekt finansieret af Energistyrelsen
+[nyheder] Hvad er den seneste kvotepris i EU ETS og hvad betyder det for CCS-business casen?
