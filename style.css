@@ -175,6 +175,7 @@ table.facts tr:last-child td {
 /* Logo-animation */
 .logo-texts {
   position: relative;
+  height: 80px;
 }
 
 .logo-texts img {
